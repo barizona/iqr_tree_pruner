@@ -1,7 +1,3 @@
----
-bibliography: references.bib
----
-
 # IQR Tree Pruner
 
 The aim of the *R* script is to exclude extremely long branches -- representing potentially misclassified taxa or genomic regions with undetected recombinant parts -- from a phylogenetic tree.
@@ -78,11 +74,26 @@ Excluding tips based on the *R2T* *IQRs*, while iteratively midpoint rooting and
 
 ## Let's see an example
 
-We have a tree with some extremely long branches:
+A tree with some extremely long branches:
 
 ![Test tree](test_input/test_tree.png)
 
-We have tried to prune it with the [Treeshrink](https://github.com/uym2/TreeShrink) software (v1.3.9) [@mai2018] but some outlier long branches still remained.
+We have tried to prune the tree with the [Treeshrink](https://github.com/uym2/TreeShrink) software (v1.3.9; Mai & Mirarab, 2018) but no tip was removed, so the extreme long branches still remained.
 
-Therefore, we applied the [IQR Tree Pruner]() R script (v1.0)
+Therefore, we applied the [IQR Tree Pruner](https://github.com/barizona/iqr_tree_pruner) R script (v1.0) with which the following branches were pruned:
+
+![Pruned tree](test_output/original_vs_pruned_tree.png)
+
+Here you can see the distribution of the branch length and number of tips of the original tree:
+
+![Distribution of the branch length and number of tips](test_output/branch_length_nr_of_tips.png)
+
+Where the branches to the right of the dark red line and below the dark green line were pruned during the 1<sup>st</sup> part of the algorithm.
+
+Here is the histogram of tip branch lengths:
+
+![Branch length distribution](test_output/branch_length_distribution.png)
+
 ## References
+
+Mai,U. and Mirarab,S. (2018) TreeShrink: fast and accurate detection of outlier long branches in collections of phylogenetic trees. *BMC Genomics*, 19, 272.
