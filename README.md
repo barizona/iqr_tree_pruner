@@ -14,6 +14,14 @@ Rscript piqr_tree_pruner_v1.0.R --original_tree tree.nwk --tipprop 0.05
 
 ***Be aware that running the script is going to delete all previously created output files in the working directory.***
 
+## Citation
+
+Please cite the IQR Tree Pruner if it was helpful for your research. This will allow me to
+continue maintaining this project in the future.
+
+> Drost HG, Paszkowski J. __Biomartr: genomic data retrieval with R__. *Bioinformatics* (2017) 33(8): 1216-1217. [doi:10.1093/bioinformatics/btw821](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btw821/2931816/Biomartr-genomic-data-retrieval-with-R).
+
+
 ## Required R packages
 
 [optparse](https://cran.r-project.org/web/packages/optparse/index.html), [tidyverse](https://www.tidyverse.org/), [magrittr](https://magrittr.tidyverse.org/), [caper](https://cran.r-project.org/web/packages/caper/index.html), [treeio](https://bioconductor.org/packages/release/bioc/html/treeio.html) (Bioconductor), [MASS](https://cran.r-project.org/web/packages/MASS/index.html), [phytools](https://cran.r-project.org/web/packages/phytools/index.html), [viridis](https://cran.r-project.org/web/packages/viridis/index.html), [ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html) (Bioconductor)
