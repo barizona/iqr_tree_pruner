@@ -19,8 +19,7 @@ Rscript piqr_tree_pruner_v1.0.R --original_tree tree.nwk --tipprop 0.05
 Please cite the IQR Tree Pruner if it was helpful for your research. This will allow me to
 continue maintaining this project in the future.
 
-> Drost HG, Paszkowski J. __Biomartr: genomic data retrieval with R__. *Bioinformatics* (2017) 33(8): 1216-1217. [doi:10.1093/bioinformatics/btw821](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btw821/2931816/Biomartr-genomic-data-retrieval-with-R).
-
+> Ari, E. (2023). IQR Tree Pruner, (Version 1.0) [Computer software] [DOI: 10.5281/zenodo.8220477](https://doi.org/10.5281/zenodo.8220477).
 
 ## Required R packages
 
