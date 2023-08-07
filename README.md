@@ -96,4 +96,4 @@ Here is the histogram of tip branch lengths:
 
 ## References
 
-Mai,U. and Mirarab,S. (2018) TreeShrink: fast and accurate detection of outlier long branches in collections of phylogenetic trees. *BMC Genomics*, 19, 272.
+Mai,U. and Mirarab,S. (2018) [TreeShrink: fast and accurate detection of outlier long branches in collections of phylogenetic trees.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4620-2) *BMC Genomics*, 19, 272.
