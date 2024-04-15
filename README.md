@@ -5,7 +5,7 @@ The aim of the *R* script is to exclude extremely long branches -- representing 
 ## Running the code
 
 ```         
-Rscript piqr_tree_pruner_v1.0.R --original_tree tree.nwk --tipprop 0.05
+Rscript iqr_tree_pruner_v1.0.R --original_tree tree.nwk --tipprop 0.05
 ```
 
 ***Be aware that running the script is going to delete all previously created output files in the working directory.***
